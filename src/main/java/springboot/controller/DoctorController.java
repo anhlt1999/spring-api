@@ -24,7 +24,7 @@ import springboot.repository.DoctorRepository;
 @RestController
 @RequestMapping("/api/v1/")
 public class DoctorController {
-
+	@CrossOrigin(origins = "https://ltwebptit.herokuapp.com/")
 	@Autowired
 	private DoctorRepository doctorRepository;
 	
