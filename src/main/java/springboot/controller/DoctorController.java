@@ -20,11 +20,10 @@ import springboot.exception.ResourceNotFoundException;
 import springboot.model.Doctor;
 import springboot.repository.DoctorRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://ltwebptit.herokuapp.com/")
 @RestController
 @RequestMapping("/api/v1/")
 public class DoctorController {
-	@CrossOrigin(origins = "https://ltwebptit.herokuapp.com/")
 	@Autowired
 	private DoctorRepository doctorRepository;
 	

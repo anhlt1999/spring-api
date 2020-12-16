@@ -20,7 +20,7 @@ import springboot.exception.ResourceNotFoundException;
 import springboot.model.Prescription;
 import springboot.repository.PrescriptionRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://ltwebptit.herokuapp.com/")
 @RestController
 @RequestMapping("/api/v1/")
 public class PrescriptionController {
