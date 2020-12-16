@@ -20,7 +20,7 @@ import springboot.exception.ResourceNotFoundException;
 import springboot.model.Nurse;
 import springboot.repository.NurseRepository;
 
-@CrossOrigin(origins = "https://ltwebptit.herokuapp.com/")
+@CrossOrigin(origins = "https://ltwebptit.herokuapp.com")
 @RestController
 @RequestMapping("/api/v1/")
 public class NurseController {
