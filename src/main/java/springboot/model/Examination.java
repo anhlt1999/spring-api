@@ -25,21 +25,6 @@ public class Examination {
 
 	@Column(name = "PrescriptionID")
 	private long PrescriptionID;
-	@OneToMany
-	@JoinColumn (name = "patientID",referencedColumnName = "patientID", insertable = false, updatable = false)
-	private Patient patient;
-
-	@OneToMany
-	@JoinColumn (name = "doctorID",referencedColumnName = "doctorID", insertable = false, updatable = false)
-	private Doctor doctor;
-
-	@OneToMany
-	@JoinColumn (name = "nurseID",referencedColumnName = "nurseID", insertable = false, updatable = false)
-	private Nurse nurse;
-
-	@OneToMany
-	@JoinColumn (name = "prescriotionID",referencedColumnName = "prescriptionID", insertable = false, updatable = false)
-	private Prescription prescription;
 
 	@Column(name = "in")
 	private String in;
