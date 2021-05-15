@@ -22,5 +22,5 @@ public class BanThanhPham {
 	private int soluong;
 	
 	@ManyToOne(targetEntity = QuyTrinh.class)
-	private List<QuyTrinh> quytrinhs;
+	private QuyTrinh quytrinhs;
 }

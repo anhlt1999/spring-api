@@ -22,8 +22,8 @@ public class Banmau {
 	private String thanhPhan;
 	
 	@ManyToOne(targetEntity = Nhanvien.class)
-	private List<Nhanvien> nhanviens;
+	private Nhanvien nhanviens;
 	
 	@ManyToOne(targetEntity = Donhang.class)
-	private List<Donhang> donhangs;
+	private Donhang donhangs;
 }
