@@ -20,7 +20,6 @@ import java.util.List;
 
 @Controller
 @RequestMapping("bctp")
-@CrossOrigin(origins = "https://qlsanxuat.herokuapp.com")
 public class BaoCaoThanhPham_Controller {
     private final BaoCaoThanhPhamRepository bctp_repo;
     @Autowired

@@ -13,7 +13,6 @@ import web.repo.DonhangRepository;
 import java.util.List;
 
 @Controller
-@CrossOrigin(origins = "https://qlsanxuat.herokuapp.com")
 @RequestMapping("/donhang")
 public class Donhang_Controller {
 	private final DonhangRepository donhangRepo;

@@ -16,7 +16,6 @@ import java.util.Date;
 import java.util.List;
 
 @Controller
-@CrossOrigin(origins = "https://qlsanxuat.herokuapp.com")
 @RequestMapping("/bctk")
 public class BaoCaoTonKho_Controller {
     private final BaoCaoTonKhoRepository bctkrepo;

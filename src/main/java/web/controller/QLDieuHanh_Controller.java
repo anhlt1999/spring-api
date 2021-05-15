@@ -24,7 +24,6 @@ import java.util.List;
 
 
 @Controller
-@CrossOrigin(origins = "https://qlsanxuat.herokuapp.com")
 @RequestMapping("/dieuhanh")
 public class QLDieuHanh_Controller {
     private final HoaDonNhapRepository hdnrepo;
