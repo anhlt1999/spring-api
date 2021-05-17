@@ -18,7 +18,7 @@ public class HoaDonNhap {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	private Date ngayNhap;
+	private String ngayNhap;
 	private int soLuong;
 	private String donvi;
 	private String trangThai;
