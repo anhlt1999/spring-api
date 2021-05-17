@@ -17,7 +17,7 @@ public class NVL {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	private Date ngayNhap;
+	private String ngayNhap;
 	private String ten;
 	private int soLuong;
 	private double gia;
